@@ -18,7 +18,7 @@ It is possible to use a few treatments at a time or all at once.
 ```python
 from preprocspectra import make_transformations
 ```
-The function has three parameters. The first must be a list with the panda dataframe with the spectra to be transformed. The second parameter must be a list of strings with the names of the treatments and the third parameter is the index of the column where the spectrum starts (if there are columns with other type of data).
+The function has three parameters. The first must be a list with the panda dataframe with the spectra to be transformed (max of 2 datasets). The second parameter must be a list of strings with the names of the treatments and the third parameter is the index of the column where the spectrum starts (if there are columns with other type of data).
 
 For example, to apply the SNV (Standard Normal Variate) treatment on a dataframe where the first two columns have other types of data (other than the spectrum), you can use the following command:
 ```python
@@ -26,6 +26,7 @@ spectras_transformed = make_transformations([data], ['snv'], 2)
 ```
 To use all treatments, just use [`'all'`] as the second parameter.
 
+The function `make_transfomations` will return a list of tuples with the treatments. The list size corresponds to the number of treatments applied (maximum 23). The size of each tuple corresponds to the number of inserted dataframes to be preprocessed + 1 (at last position has a name of preprocessing method) and the order of the datasets in each tuple is the same as that inserted.
 There are 23 treatments available for use.
 
 ## Preprocessing methods available
