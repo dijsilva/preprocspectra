@@ -1,13 +1,15 @@
 import setuptools
 
 setuptools.setup(
-	name="preprocspectra",
-	version="0.0.1",
+    name="preprocspectra",
+    version="0.0.1",
+    license='MIT',
     author="Diego José da Silva",
     author_email="diegojsilvabr@gmail.com",
     description="A simple library to apply preprocessing of spectra obtained from infrared spectroscopy.",
     url="https://github.com/dijsilva/spectra-transform",
     packages=setuptools.find_packages(),
+    keywords = ['SPECTROSCOPY', 'PREPROCESSING', 'SPECTRA'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
