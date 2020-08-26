@@ -1,6 +1,9 @@
 # Preprocspectra
 ### A lib with preprocessing methods for spectral data
 
+[![PyPI Latest Release](https://img.shields.io/pypi/v/preprocspectra.svg)](https://pypi.org/project/preprocspectra/)
+[![License](https://img.shields.io/pypi/l/preprocspectra.svg)](https://github.com/dijsilva/preprocspectra/blob/master/LICENSE)
+
 This library provides a set of some pre-processing methods that can be used in spectra obtained by infrared spectroscopy.
 It is possible to use some treatments sometimes or all.
 
