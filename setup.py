@@ -9,6 +9,7 @@ setuptools.setup(
     description="A simple library to apply preprocessing of spectra obtained from infrared spectroscopy.",
     url="https://github.com/dijsilva/spectra-transform",
     packages=setuptools.find_packages(),
+    download_url = 'https://github.com/dijsilva/preprocspectra/releases/tag/0.0.1',
     keywords = ['SPECTROSCOPY', 'PREPROCESSING', 'SPECTRA'],
     classifiers=[
         "Programming Language :: Python :: 3",
