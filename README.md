@@ -1,4 +1,8 @@
-# Preprocspectra
+<p align="center">
+<img width="300" src="https://github.com/dijsilva/preprocspectrea/blob/master/images/header.png">
+</p>
+<h1 align='center'>Preprocspectra</h1>
+
 ### A lib with preprocessing methods for spectral data
 
 [![PyPI Latest Release](https://img.shields.io/pypi/v/preprocspectra.svg)](https://pypi.org/project/preprocspectra/)
