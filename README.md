@@ -1,5 +1,5 @@
 <p align="center">
-<img width="300" src="https://github.com/dijsilva/preprocspectrea/blob/master/images/header.png">
+<img width="300" src="https://github.com/dijsilva/preprocspectra/blob/master/images/header.png">
 </p>
 <h1 align='center'>Preprocspectra</h1>
 
