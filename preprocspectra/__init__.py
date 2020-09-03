@@ -1,8 +1,4 @@
-__all__ = ['snv', 'sg', 'plus_sg', 'area_norm', 'msc', 'make_transformations']
+__all__ = ['make_transformations', 'make_average']
 
-from preprocspectra.transformations import snv
-from preprocspectra.transformations import sg
-from preprocspectra.transformations import plus_sg
-from preprocspectra.transformations import area_norm
-from preprocspectra.transformations import msc
-from preprocspectra.handle_transformations import make_transformations 
+from preprocspectra.transformation_tools.handle_transformations import make_transformations 
+from preprocspectra.utils.average import make_average

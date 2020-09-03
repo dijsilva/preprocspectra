@@ -1,4 +1,4 @@
-from preprocspectra.transformations import snv, sg, msc, plus_sg, area_norm
+from preprocspectra.transformation_tools.transformations import snv, sg, msc, plus_sg, area_norm
 
 import pandas as pd
 

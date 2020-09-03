@@ -4,8 +4,10 @@
 [![PyPI Latest Release](https://img.shields.io/pypi/v/preprocspectra.svg)](https://pypi.org/project/preprocspectra/)
 [![License](https://img.shields.io/pypi/l/preprocspectra.svg)](https://github.com/dijsilva/preprocspectra/blob/master/LICENSE)
 
-This library provides a set of some pre-processing methods that can be used in spectra obtained by infrared spectroscopy.
-It is possible to use some treatments sometimes or all.
+This library provides a set of tools that can be used in chemometrics analysis.
+These tools are:
+ - Some pre-processing methods that can be applyed in the spectra.
+ - A function that make average of spectra in the case of there are more than one spectra by sample (e.g. triplicate or duplicate aquisitions)
 
 ## Install
 ```sh
@@ -14,6 +16,7 @@ pip install preprocspectra
 ```
 
 ## Usage
+### Applying pre-processing methods
 It is possible to use a few treatments at a time or all at once.
 ```python
 from preprocspectra import make_transformations
@@ -56,6 +59,8 @@ There are 23 treatments available for use.
 - MSC_SG2_25 (MSC + SG2_25)
 - ALL (all preprocessing methods available)
 
+
+### Applying pre-processing methods
 
 ## License
 MIT © Diego Silva

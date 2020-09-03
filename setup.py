@@ -10,7 +10,7 @@ import setuptools
 
 setuptools.setup(
     name="preprocspectra",
-    version="0.0.2",
+    version="0.0.3",
     license='MIT',
     author="Diego José da Silva",
     author_email="diegojsilvabr@gmail.com",
