@@ -1,7 +1,8 @@
 """
-This library provides a set of some pre-processing methods that can be used in
-spectra obtained by infrared spectroscopy. It is possible to use some treatments 
-sometimes or all.
+This library provides a set of tools that can be used in chemometrics analysis.
+These tools are:
+ - Some pre-processing methods that can be applyed in the spectra.
+ - A function that make average of spectra in the case of there are more than one spectra by sample (e.g. triplicate or duplicate aquisitions)
 """
 DOCLINES = (__doc__ or '').split("\n")
 
@@ -10,7 +11,7 @@ import setuptools
 
 setuptools.setup(
     name="preprocspectra",
-    version="0.0.3",
+    version="0.0.4",
     license='MIT',
     author="Diego José da Silva",
     author_email="diegojsilvabr@gmail.com",
