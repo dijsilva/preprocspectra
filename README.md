@@ -69,6 +69,11 @@ After importing the function, it can be used and must receive three parameters.
 
 The first parameter is a pandas dataframe with dataset (which can contain only spectra or spectra plus sample metadata such as id or chemical property values). The second parameter is the information on how much spectra must be considered for to perform a average. That is, if there are two spectra per sample, this parameter should be 2 (an integer). The third parameter is the index where a spectra starts. If there is metadata in the first columns of the dataset, this parameter must be an index where the first value of spectra is.
 
+In this example, the dataset contains only spectra and there are two spectra per sample.
+```python
+average_spectra = make_average(data, 2, 0)
+```
+
 The function return another pandas dataframe with new data.
 
 
