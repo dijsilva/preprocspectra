@@ -1,8 +1,10 @@
 """
 This library provides a set of tools that can be used in chemometrics analysis.
+
 These tools are:
- - Some pre-processing methods that can be applyed in the spectra.
- - A function that make average of spectra in the case of there are more than one spectra by sample (e.g. triplicate or duplicate aquisitions)
+
+- some pre-processing methods that can be applyed in the spectra.
+- an function that make average of spectra in the case of there are more than one spectra by sample (e.g. triplicate or duplicate aquisitions)
 """
 DOCLINES = (__doc__ or '').split("\n")
 
@@ -11,12 +13,12 @@ import setuptools
 
 setuptools.setup(
     name="preprocspectra",
-    version="0.0.4",
+    version="0.0.65",
     license='MIT',
     author="Diego José da Silva",
     author_email="diegojsilvabr@gmail.com",
-    description="A simple library to apply preprocessing of spectra obtained from infrared spectroscopy.",
-    long_description = "\n".join(DOCLINES[0:]),
+    description=DOCLINES[0],
+    long_description = "\n".join(DOCLINES[2:]),
     url="https://github.com/dijsilva/preprocspectra",
     packages=setuptools.find_packages(),
     download_url = 'https://github.com/dijsilva/preprocspectra/releases/tag/0.0.1',
