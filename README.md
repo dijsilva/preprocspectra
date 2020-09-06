@@ -38,7 +38,6 @@ There are 23 treatments available for use.
 
 ## Preprocessing methods available
 
-- RAW (No treatment)
 - SNV (Standard Normal Variate)
 - MSC (Multiplicative Scatter Correction)
 - AREA_NORM (Area Normalize)
